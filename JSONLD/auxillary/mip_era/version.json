@@ -1,0 +1,134 @@
+[
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip_era/cmip6plus.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/auxillary/mip_era/cmip6plus.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:auxillary/mip_era/cmip6plus"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip_era/cmip5.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/auxillary/mip_era/cmip5.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:auxillary/mip_era/cmip5"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip_era/schema.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/auxillary/mip_era/schema.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:auxillary/mip_era/schema"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip_era/cmip6.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/auxillary/mip_era/cmip6.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:auxillary/mip_era/cmip6"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip_era/version.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/auxillary/mip_era/version.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 4,
+        "version:date": "2024-06-02T21:51:04+01:00",
+        "version:commit": {
+            "hash": "1741bfa7d6c2d4e4f693c39b181d2fbac4756276",
+            "message": "compiled results, fixed compilation script",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:auxillary/mip_era/version"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip_era/graph.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/auxillary/mip_era/graph.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 4,
+        "version:date": "2024-06-02T21:51:04+01:00",
+        "version:commit": {
+            "hash": "1741bfa7d6c2d4e4f693c39b181d2fbac4756276",
+            "message": "compiled results, fixed compilation script",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:auxillary/mip_era/graph"
+        }
+    }
+]

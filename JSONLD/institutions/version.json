@@ -1,0 +1,1278 @@
+[
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/NUIST.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/NUIST.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/NUIST"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/AER.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/AER.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/AER"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/CMCC.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/CMCC.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/CMCC"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/MPI-M.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/MPI-M.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/MPI-M"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/UA.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/UA.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/UA"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/CAS.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/CAS.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/CAS"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/version.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/version.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 4,
+        "version:date": "2024-06-02T21:51:04+01:00",
+        "version:commit": {
+            "hash": "1741bfa7d6c2d4e4f693c39b181d2fbac4756276",
+            "message": "compiled results, fixed compilation script",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/version"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/UofMD.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/UofMD.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/UofMD"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/CCCma.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/CCCma.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/CCCma"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/NTU.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/NTU.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/NTU"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/CNES.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/CNES.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/CNES"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/NASA-GSFC.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/NASA-GSFC.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/NASA-GSFC"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/MOHC.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/MOHC.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/MOHC"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/BCC.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/BCC.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/BCC"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/MRI.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/MRI.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/MRI"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/PNNL-WACCEM.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/PNNL-WACCEM.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/PNNL-WACCEM"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/NCAR.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/NCAR.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/NCAR"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/NOAA-NCEI.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/NOAA-NCEI.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/NOAA-NCEI"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/CSIRO.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/CSIRO.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/CSIRO"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/LLNL.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/LLNL.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/LLNL"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/NERC.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/NERC.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/NERC"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/ESSO.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/ESSO.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/ESSO"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/IACETH.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/IACETH.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/IACETH"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/DKRZ.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/DKRZ.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/DKRZ"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/RSS.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/RSS.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/RSS"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/AWI.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/AWI.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/AWI"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/THU.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/THU.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/THU"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/UHH.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/UHH.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/UHH"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/CAMS.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/CAMS.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/CAMS"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/ImperialCollege.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/ImperialCollege.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/ImperialCollege"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/ECMWF.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/ECMWF.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/ECMWF"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/VUA.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/VUA.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/VUA"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/PCMDI.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/PCMDI.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/PCMDI"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/CCCR-IITM.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/CCCR-IITM.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/CCCR-IITM"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/NCAS.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/NCAS.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/NCAS"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/DWD.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/DWD.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/DWD"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/UoM.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/UoM.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/UoM"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/NASA-GISS.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/NASA-GISS.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/NASA-GISS"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/SNU.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/SNU.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/SNU"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/SOLARIS-HEPPA.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/SOLARIS-HEPPA.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/SOLARIS-HEPPA"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/KIOST.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/KIOST.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/KIOST"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/NASA-LaRC.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/NASA-LaRC.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/NASA-LaRC"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/UColorado.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/UColorado.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/UColorado"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/INM.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/INM.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/INM"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/NASA-JPL.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/NASA-JPL.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/NASA-JPL"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/PNNL-JGCRI.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/PNNL-JGCRI.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/PNNL-JGCRI"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/UReading.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/UReading.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/UReading"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/NIWA.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/NIWA.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/NIWA"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/AS-RCEC.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/AS-RCEC.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/AS-RCEC"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/UCI.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/UCI.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/UCI"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/OSU.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/OSU.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/OSU"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/graph.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/graph.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 4,
+        "version:date": "2024-06-02T21:51:04+01:00",
+        "version:commit": {
+            "hash": "1741bfa7d6c2d4e4f693c39b181d2fbac4756276",
+            "message": "compiled results, fixed compilation script",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/graph"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/UW.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/UW.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/UW"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/CEDA.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/CEDA.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/CEDA"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/JAXA.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/JAXA.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/JAXA"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/UCSB.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/UCSB.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/UCSB"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/MPI-B.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/MPI-B.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/MPI-B"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/institutions/IPSL.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/institutions/IPSL.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-01T20:42:10+01:00",
+        "version:commit": {
+            "hash": "967cb041cf89d08efc80e9122bd46bb3b2a82b8c",
+            "message": "folder_rename",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:institutions/IPSL"
+        }
+    }
+]

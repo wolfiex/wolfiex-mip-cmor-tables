@@ -1,0 +1,15 @@
+{
+    "institutions": {
+        "@context": {
+            "@vocab": "institutions",
+            "@base": "https://github.com/PCMDI/mip-cmor-tables/tree/json-ld/JSONLD/institutions"
+        }
+    },
+  
+    "location": {
+        "@context": {
+            "@vocab": "location:"
+        }
+    }
+}
+
