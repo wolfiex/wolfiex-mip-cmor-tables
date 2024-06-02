@@ -38,6 +38,8 @@ SHORTHAND = "mip-cmor-tables:"
 DEFAULT_SKIP_FILES = ['schema.json', 'graph.json', ".DS_Store", "create.ipynb", "version.json"]
 DEFAULT_SKIP_DIRS = ['JSONLD/archive', 'JSONLD/scripts']
 
+graphfile = './compiled/graph_data.json'
+
 def get_repo_info() -> Tuple[str, str, str]:
     """Retrieve repository information and tags."""
     repo = subprocess.getoutput('git remote get-url origin').replace('.git', '/blob/main/JSONLD').strip()
@@ -61,7 +63,7 @@ def read_all_json_files(directory: str, base_dir: str) -> Tuple[str, str]:
     files = [f for f in os.listdir(directory) if f.endswith('.json') and f not in skipped]
     
     if 'frame.json' not in files:
-        print('Skipping ', directory)
+        print('>>>   Skipping ', directory)
         return None, None
     
     files.remove("frame.json")
@@ -152,7 +154,7 @@ def get_directories_to_process(base_dir: str, skip_dirs: set, override: bool) ->
         #         #     all_dirs.add(full_path.removeprefix(base_dir))
         # return all_dirs
 
-    cmd = '''git diff --name-only $(git log -1 --pretty=format:%H -- ./graph_data.json)^ HEAD'''
+    cmd = f'git diff --name-only $(git log -1 --pretty=format:%H -- {graphfile})^ HEAD'
     output = subprocess.getoutput(cmd)
     
     if not output:
