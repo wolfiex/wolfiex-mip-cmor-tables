@@ -1,5 +1,6 @@
 import json, os, sys
 from collections import OrderedDict
+from tests import schema
 
 # Get the parent directory of the current file
 parent_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
@@ -11,14 +12,6 @@ from action_functions import update_issue,jr,jw,getfile,close_issue,pp
 issue_number = os.environ['ISSUE']
 data = os.environ['PAYLOAD_DATA']
 data = json.loads(str(data))
-
-
-# Load Existing
-institutions = jr(getfile('institutions')[0])
-ilist = institutions['institutions']
-
-
-
 
 '''
 Functions 
@@ -49,34 +42,38 @@ def get_ror_data(name):
 
 
 
-def parse_ror_data(ror_data):
+def parse_ror_data(cmip_acronym,ror_data):
     """Parse ROR data and return relevant information."""
     if ror_data:
 
         return {
-            "identifiers": {
-                'institution_name': ror_data['name'],
-                'aliases': ror_data.get('aliases', []),
-                'acronyms': ror_data.get('acronyms', []),
-                'labels': [i['label'] for i in ror_data.get('lables', [])],
-                'ror': ror_data['id'].split('/')[-1],
-                'url': ror_data.get('links', []),
-                'established': ror_data.get('established'),
-                'type': ror_data.get('types', [])[0] if ror_data.get('types') else None,
-            },
-            "location": {
-                'lat': ror_data['addresses'][0].get('lat') if ror_data.get('addresses') else None,
-                'lon': ror_data['addresses'][0].get('lng') if ror_data.get('addresses') else None,
-                # 'latest_address': ror_data['addresses'][0].get('line') if ror_data.get('addresses') else None,
-                'city': ror_data['addresses'][0].get('city') if ror_data.get('addresses') else None,
-            #     'country': ror_data['country']['country_name'] if ror_data.get('country') else None
-                'country': list(ror_data['country'].values())  if ror_data.get('country') else None
-            },
-            "consortiums":[]
+            "@id": f"mip-cmor-tables:organisations/institutions/{cmip_acronym.lower()}",
+            "@type": "cmip:institution",
+            "institution:cmip_acronym": cmip_acronym,
+            "institution:ror": ror_data['id'].split('/')[-1],
+            "institution:name": ror_data['name'],
+            "institution:url": ror_data.get('links', []) ,
+            "institution:established": ror_data.get('established'),
+            "institution:type": ror_data.get('types', [])[0] if ror_data.get('types') else None,
+            "institution:labels": [i['label'] for i in ror_data.get('lables', [])],
+            "institution:aliases": ror_data.get('aliases', []),
+            "institution:acronyms": ror_data.get('acronyms', []),
+            "institution:location": {
+                "@id": f"mip-cmor-tables:organisations/institutions/location/{ror_data['id'].split('/')[-1]}",
+                "@type": "institution:location",
+                "@nest": {
+                    "location:lat":  ror_data['addresses'][0].get('lat') if ror_data.get('addresses') else None,
+                    "location:lon":  ror_data['addresses'][0].get('lat') if ror_data.get('addresses') else None,
+                    "location:city": ror_data['addresses'][0].get('city') if ror_data.get('addresses') else None,
+                    "location:country": list(ror_data['country'].values())  if ror_data.get('country') else None
+                }
+            }         
+            #  can reverse match consortiums or members from here.    
             
         }
     else:
         return None
+    
     
     
 # def search_ror(query):
@@ -117,27 +114,31 @@ if data['acronym'] in ilist:
   close_issue(issue_number,f'# Closing issue. \n {data["acronym"]} already exists in the institution list. \n\n Please review request and resubmit.')
 
 dta = get_ror_data(data['ror'])
-new_entry = parse_ror_data(dta)
+new_entry = parse_ror_data(data['acronym'],dta)
 
+valid,validation_message,outfile = schema.validate_json(new_entry)
+
+if valid:
+    update_issue(issue_number,validation_message,False)
+else:
+    error = f"Schema Failed.\n\n {validation_message}"
+    # this exists the script. 
+    update_issue(issue_number,error,err=True) 
+
+    
 
 update_issue(issue_number,f"# Sanity Check: \n Is '{data['full_name']}' the same as '{new_entry['identifiers']['institution_name']}'",False)
-
-
-ilist[data['acronym']] = new_entry
 
 # print for pull request
 pp( {data['acronym'] : new_entry })
 
-
-ilist = OrderedDict(sorted(ilist.items(), key=lambda item: item[0]))
-
-institutions['institutions'] = ilist
+jsn_ordered = OrderedDict(sorted(new_entry.items(), key=lambda item: item[0]))
 
 # Serialize back to JSON
-jw(institutions, getfile('institutions')[0])
+jw(jsn_ordered, outfile)
 
 os.popen(f'git add -A"').read()
-os.popen(f'git commit -m "New entry {data["acronym"]} to the Institutions file"').read()
+os.popen(f'git commit -m "New entry {data["acronym"]} to the Institutions LD file"').read()
 
 
 
