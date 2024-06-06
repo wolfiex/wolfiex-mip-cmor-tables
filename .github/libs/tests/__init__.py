@@ -1,1 +1,2 @@
-import schema
+from . import schema
+from . import conforms

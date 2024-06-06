@@ -8,17 +8,62 @@
     "consortium:members": {
         "@set": [
             {
-                "@id": "JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa 236-0001, Japan)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/jamstec"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba 277-8564, Japan)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/aori"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "NIES (National Institute for Environmental Studies, Ibaraki 305-8506, Japan)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/nies"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "R-CCS (RIKEN Center for Computational Science, Hyogo 650-0047, Japan)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/r-ccs"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             }
         ]
-    }
+    },
+    "consortia:status": "active"
 }

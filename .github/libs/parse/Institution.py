@@ -1,11 +1,11 @@
-import json, os, sys
+import json, os, sys, glob
 from collections import OrderedDict
-from tests import schema
+
 
 # Get the parent directory of the current file
 parent_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 sys.path.append(parent_dir)
-
+from tests import schema
 from action_functions import update_issue,jr,jw,getfile,close_issue,pp
 
 # data
@@ -110,11 +110,13 @@ def parse_ror_data(cmip_acronym,ror_data):
 Get the Data
 '''
 
-if data['acronym'] in ilist:
-  close_issue(issue_number,f'# Closing issue. \n {data["acronym"]} already exists in the institution list. \n\n Please review request and resubmit.')
+
+
 
 dta = get_ror_data(data['ror'])
 new_entry = parse_ror_data(data['acronym'],dta)
+
+
 
 valid,validation_message,outfile = schema.validate_json(new_entry)
 
@@ -124,6 +126,12 @@ else:
     error = f"Schema Failed.\n\n {validation_message}"
     # this exists the script. 
     update_issue(issue_number,error,err=True) 
+
+
+critical, critical_message = checks.institution()
+
+if data['acronym'] in ilist:
+  close_issue(issue_number,f'# Closing issue. \n {data["acronym"]} already exists in the institution list. \n\n Please review request and resubmit.')
 
     
 

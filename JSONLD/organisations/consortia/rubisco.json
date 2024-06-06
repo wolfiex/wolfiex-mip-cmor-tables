@@ -8,32 +8,132 @@
     "consortium:members": {
         "@set": [
             {
-                "@id": "ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/ornl"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "ANL (Argonne National Laboratory, Argonne, IL 60439, USA)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/anl"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "BNL (Brookhaven National Laboratory, Upton, NY 11973, USA)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/bnl"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "LANL (Los Alamos National Laboratory, Los Alamos, NM 87545)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/lanl"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/lbnl"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "NAU (Northern Arizona University, Flagstaff, AZ 86011, USA)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/nau"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "mip-cmor-tables/institutions/ncar"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/ncar"
+                },
+                "consortia:membership_type": "active",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "mip-cmor-tables/institutions/uci"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/uci"
+                },
+                "consortia:membership_type": "active",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "UM (University of Michigan, Ann Arbor, MI 48109, USA)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/um"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             }
         ]
-    }
+    },
+    "consortia:status": "active"
 }

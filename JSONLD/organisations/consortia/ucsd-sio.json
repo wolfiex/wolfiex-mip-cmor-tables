@@ -8,11 +8,34 @@
     "consortium:members": {
         "@set": [
             {
-                "@id": "University of California, San Diego"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/university"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "Scripps Institution of Oceanography"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/scripps"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             }
         ]
-    }
+    },
+    "consortia:status": "active"
 }

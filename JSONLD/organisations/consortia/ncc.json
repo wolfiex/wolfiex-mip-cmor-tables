@@ -8,26 +8,104 @@
     "consortium:members": {
         "@set": [
             {
-                "@id": "NorESM Climate modeling Consortium consisting of CICERO (Center for International Climate and Environmental Research, Oslo 0349)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/noresm"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "MET-Norway (Norwegian Meteorological Institute, Oslo 0313)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/met-norway"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "NERSC (Nansen Environmental and Remote Sensing Center, Bergen 5006)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/nersc"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "NILU (Norwegian Institute for Air Research, Kjeller 2027)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/nilu"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "UiB (University of Bergen, Bergen 5007)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/uib"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "UiO (University of Oslo, Oslo 0313)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/uio"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "UNI (Uni Research, Bergen 5008) Norway"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/uni"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             }
         ]
-    }
+    },
+    "consortia:status": "active"
 }

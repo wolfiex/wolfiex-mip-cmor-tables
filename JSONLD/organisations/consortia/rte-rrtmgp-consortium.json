@@ -8,11 +8,34 @@
     "consortium:members": {
         "@set": [
             {
-                "@id": "mip-cmor-tables/institutions/aer"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/aer"
+                },
+                "consortia:membership_type": "active",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "mip-cmor-tables/institutions/ucolorado"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/ucolorado"
+                },
+                "consortia:membership_type": "active",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             }
         ]
-    }
+    },
+    "consortia:status": "active"
 }

@@ -1,0 +1,529 @@
+[
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "CNRM-Cerfacs",
+        "description": "CNRM-Cerfacs",
+        "members": {
+            "institution": "mip-cmor-tables:organisations/institutions/cnrm"
+        },
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "CSIRO-ARCCSS",
+        "description": "CSIRO-ARCCSS",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/csiro"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/arccss"
+            }
+        ],
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "CSIRO-COSIMA",
+        "description": "CSIRO-COSIMA",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/csiro"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/cosima"
+            }
+        ],
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "DLR-BIRA",
+        "description": "DLR-BIRA",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/deutsches"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/royal"
+            }
+        ],
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "E3SM-Project",
+        "description": "E3SM-Project",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/llnl"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/anl"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/bnl"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/lanl"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/lbnl"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/ornl"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/pnnl"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/snl"
+            }
+        ],
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "EC-Earth-Consortium",
+        "description": "EC-Earth-Consortium",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/aemet,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/bsc,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/cnr-isac,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/dmi,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/enea,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/fmi,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/geomar,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/ichec,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/ictp,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/idl,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/imau,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/ipma,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/kit,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/knmi,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/lund"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/met"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/nlesc,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/ntnu,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/oxford"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/surfsara,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/smhi,"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/stockholm"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/unite"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/university"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/university"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/university"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/university"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/university"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/uppsala"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/utrecht"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/vrije"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/wageningen"
+            }
+        ],
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "ESPRI-IPSL",
+        "description": "ESPRI-IPSL",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/ensemble"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/institut"
+            }
+        ],
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "FIO-QLNM",
+        "description": "FIO-QLNM",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/fio"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/qnlm"
+            }
+        ],
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "HAMMOZ-Consortium",
+        "description": "HAMMOZ-Consortium",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/eth"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/max"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/forschungszentrum"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/university"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/finnish"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/leibniz"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/center"
+            }
+        ],
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "IAMC",
+        "description": "Integrated Assessment Modeling Consortium",
+        "members": {
+            "institution": "mip-cmor-tables:organisations/institutions/integrated"
+        },
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "INCOIS-NIO-IPSL",
+        "description": "INCOIS-NIO-IPSL",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/incois"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/nio"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/ipsl"
+            }
+        ],
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "MESSy-Consortium",
+        "description": "The Modular Earth Submodel System (MESSy) Consortium",
+        "members": {
+            "institution": "mip-cmor-tables:organisations/institutions/institute"
+        },
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "MIROC",
+        "description": "MIROC",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/jamstec"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/aori"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/nies"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/r-ccs"
+            }
+        ],
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "NCC",
+        "description": "NCC",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/noresm"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/met-norway"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/nersc"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/nilu"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/uib"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/uio"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/uni"
+            }
+        ],
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "NIMS-KMA",
+        "description": "NIMS-KMA",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/national"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/korea"
+            }
+        ],
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "NOAA-GFDL",
+        "description": "NOAA-GFDL",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/national"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/geophysical"
+            }
+        ],
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "PCMDI",
+        "description": "PCMDI",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/program"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/lawrence"
+            }
+        ],
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "RTE-RRTMGP-Consortium",
+        "description": "RTE-RRTMGP-Consortium",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/aer"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/ucolorado"
+            }
+        ],
+        "url": ""
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "RUBISCO",
+        "description": "RUBISCO",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/ornl"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/anl"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/bnl"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/lanl"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/lbnl"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/nau"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/ncar"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/uci"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/um"
+            }
+        ],
+        "url": ""
+    },
+    {
+        "changes": "",
+        "cmip_acronym": "SOLARIS HEPPA",
+        "description": "SOLARIS HEPPA Consortium",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/aristotleuniversityofthessaloniki"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/astronomicalobservatoryofrome"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/bas"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/eawag"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/fmi"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/fuberlin"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/geomar"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/gsfc"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/iaacsic"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/issi"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/kit"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/lasp"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/lpc2e"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/metoffice"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/mps"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/ncar"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/pmod"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/uobergen"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/uoleeds"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/uomontreal"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/uootago"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/wdcgg"
+            }
+        ],
+        "url": "https://solarisheppa.geomar.de"
+    },
+    {
+        "status": "active",
+        "changes": "",
+        "cmip_acronym": "UCSD-SIO",
+        "description": "UCSD-SIO",
+        "members": [
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/university"
+            },
+            {
+                "institution": "mip-cmor-tables:organisations/institutions/scripps"
+            }
+        ],
+        "url": ""
+    }
+]

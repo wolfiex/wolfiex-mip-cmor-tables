@@ -8,11 +8,34 @@
     "consortium:members": {
         "@set": [
             {
-                "@id": "Ensemble de Services Pour la Recherche"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/ensemble"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             },
             {
-                "@id": "Institut Pierre Simon Laplace (France)"
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/institut"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
             }
         ]
-    }
+    },
+    "consortia:status": "active"
 }
