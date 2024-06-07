@@ -1,49 +1,5 @@
 [
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/organisations/consortia/version.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/organisations/consortia/version.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 2,
-        "version:date": "2024-06-06T16:29:02+01:00",
-        "version:commit": {
-            "hash": "28293d3c63aea86769975566c110184e99941b33",
-            "message": "consortium redesign",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:organisations/consortia/version"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/organisations/consortia/graph.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/organisations/consortia/graph.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 2,
-        "version:date": "2024-06-06T16:29:02+01:00",
-        "version:commit": {
-            "hash": "28293d3c63aea86769975566c110184e99941b33",
-            "message": "consortium redesign",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:organisations/consortia/graph"
-        }
-    },
-    {
         "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/organisations/consortia/solaris-heppa.json",
         "@type": "version",
         "version:file": "../../JSONLD/organisations/consortia/solaris-heppa.json",
@@ -63,28 +19,6 @@
         },
         "version:data": {
             "@id": "../../mip-cmor-tables:organisations/consortia/solaris-heppa"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/organisations/consortia/schema.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/organisations/consortia/schema.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-04T14:26:36+01:00",
-        "version:commit": {
-            "hash": "adb727c4db67749e6e18091d9693d61108f69b57",
-            "message": "institution and consortia update",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:organisations/consortia/schema"
         }
     }
 ]
