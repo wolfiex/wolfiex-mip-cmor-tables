@@ -34,7 +34,7 @@ async function main() {
 
 
     jsonld.frame(graphData, frame)
-        .then(graphOnly)
+        // .then(graphOnly)
         .then(cld.stringify)
         .then(cld.flatten)
         .then(cld.rmld)
