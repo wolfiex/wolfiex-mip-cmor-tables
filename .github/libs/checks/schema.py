@@ -19,14 +19,13 @@ def validate_json(jsn):
     
     schema_loc = f"{toplevel}/JSONLD/{schema_url}/schema.json"
     # outfile guarantees that we must run this
-    outfile = f"{toplevel}/JSONLD/{jsn['id'].split(':')[-1]}"
     
     schema = rdjsn(schema_loc)
     
     try:
         validate(instance=jsn, schema=schema)
         print(f"Validation succeeded: {name}")
-        return True, f"Validation succeeded: {name}" , outfile
+        return True, f"Validation succeeded: {name}" 
     except jsonschema.exceptions.ValidationError as err:
         print("Validation error:", err.message, name)
         return False, "Validation error:\n {err.message}\n RelevantFile: {jsn['@id']}", False

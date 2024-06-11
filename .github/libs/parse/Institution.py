@@ -5,12 +5,13 @@ path = f'organisations/institutions'
 toplevel = os.popen('git rev-parse --show-toplevel').read().strip()
 loc = f"{toplevel}/JSONLD/{path}/"
 
-existing = [os.path.splitext(os.path.basename(f))[0] for f in  glob.glob(f"{loc}/*.json")]
+
 
 # Get the parent directory of the current file
 parent_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 sys.path.append(parent_dir)
-from tests import schema
+import checks
+from checks import schema,institution
 from action_functions import update_issue,jr,jw,getfile,close_issue,pp
 
 # data
@@ -91,20 +92,40 @@ new_entry = parse_ror_data(data['acronym'],dta)
 
 
 
-valid,validation_message,outfile = schema.validate_json(new_entry)
+
+close,errors = checks.institution.validate(new_entry)
+
+critical, critical_message = checks.institution()
+
+
+
+for error in close:
+    update_issue(issue_number,f'# Closing issue. \n {error} \n\n Please review request and resubmit.')
+    
+for error in errors:
+    update_issue(issue_number,f'# {error} \n\n Please update (edit) the entry above.')
+
+
+valid,validation_message = checks.schema.validate_json(new_entry)
 
 if valid:
     update_issue(issue_number,validation_message,False)
 else:
-    error = f"Schema Failed.\n\n {validation_message}"
+    error = f"Schema Failed.\n\n Please update the entry above. {validation_message}"
     # this exists the script. 
     update_issue(issue_number,error,err=True) 
 
 
-critical, critical_message = checks.institution()
 
-if data['acronym'].lower() in existing:
-  close_issue(issue_number,f'# Closing issue. \n {data["acronym"]} already exists in the institution list. \n\n Please review request and resubmit.')
+
+
+
+# if data['acronym'].lower() in existing:
+
+
+
+    
+#   close_issue(issue_number,f'# Closing issue. \n {data["acronym"]} already exists in the institution list. \n\n Please review request and resubmit.')
 
     
 
