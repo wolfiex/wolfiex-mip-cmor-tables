@@ -91,9 +91,9 @@ dta = get_ror_data(data['ror'])
 new_entry = parse_ror_data(data['acronym'],dta)
 
 
+outfile = f"{loc}{data['acronym'].lower()}.json"
 
-
-close,errors = checks.institution.validate(new_entry)
+close,errors = checks.institution.validate(new_entry,outfile)
 
 critical, critical_message = checks.institution()
 
@@ -138,7 +138,7 @@ jsn_ordered = OrderedDict(sorted(new_entry.items(), key=lambda item: item[0]))
 
 # Serialize back to JSON
 
-outfile = f"{loc}{data['acronym'].lower()}.json"
+
 jw(jsn_ordered, outfile)
 
 
