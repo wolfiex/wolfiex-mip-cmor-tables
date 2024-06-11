@@ -1,6 +1,11 @@
 import json, os, sys, glob
 from collections import OrderedDict
 
+path = f'organisations/institutions'
+toplevel = os.popen('git rev-parse --show-toplevel').read().strip()
+loc = f"{toplevel}/JSONLD/{path}/"
+
+existing = [os.path.splitext(os.path.basename(f))[0] for f in  glob.glob(f"{loc}/*.json")]
 
 # Get the parent directory of the current file
 parent_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
@@ -81,8 +86,6 @@ Get the Data
 '''
 
 
-
-
 dta = get_ror_data(data['ror'])
 new_entry = parse_ror_data(data['acronym'],dta)
 
@@ -100,7 +103,7 @@ else:
 
 critical, critical_message = checks.institution()
 
-if data['acronym'] in ilist:
+if data['acronym'].lower() in existing:
   close_issue(issue_number,f'# Closing issue. \n {data["acronym"]} already exists in the institution list. \n\n Please review request and resubmit.')
 
     
@@ -113,7 +116,10 @@ pp( {data['acronym'] : new_entry })
 jsn_ordered = OrderedDict(sorted(new_entry.items(), key=lambda item: item[0]))
 
 # Serialize back to JSON
+
+outfile = f"{loc}{data['acronym'].lower()}.json"
 jw(jsn_ordered, outfile)
+
 
 os.popen(f'git add -A"').read()
 os.popen(f'git commit -m "New entry {data["acronym"]} to the Institutions LD file"').read()
@@ -159,7 +165,3 @@ os.popen(f'git commit -m "New entry {data["acronym"]} to the Institutions LD fil
 
 # data = parsed['institutions']
 # data['institutions'] = parsed['institutions']['cmip6_acronyms']
-
-
-
-
