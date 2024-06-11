@@ -126,7 +126,7 @@ else:
 
     
 
-update_issue(issue_number,f"# Sanity Check: \n Is '{data['full_name']}' the same as '{new_entry['identifiers']['institution_name']}'",False)
+update_issue(issue_number,f"# Sanity Check: \n Is '{data['full_name']}' the same as '{new_entry['institution:name']}'",False)
 
 # print for pull request
 pp( {data['acronym'] : new_entry })
