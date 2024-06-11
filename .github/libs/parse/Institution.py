@@ -75,36 +75,6 @@ def parse_ror_data(cmip_acronym,ror_data):
         return None
     
     
-    
-# def search_ror(query):
-
-#     import requests,json
-#     import urllib.parse
-
-#     # Strip out strange characters and insert in the desired format
-#     format_name = lambda n : urllib.parse.quote(n)
-#     # Make the API call
-#     url = 'https://api.ror.org/organizations?affiliation=%{}s'
-
-#     response = requests.get(url.format(query))
-
-#     # Check if the request was successful
-#     if response.status_code == 200:
-#         data = response.json()
-#         if data.get('items'):
-#             org = data['items'][0].get('organization')
-#             return data['items'][0]['score'],org['id'].split('/')[-1], org['name']
-#         else: return None,None,None
-#     else:
-#         print(f"Error: {response.status_code} - {response.text}")
-#         return None,None,None
-
-
-
-# data = parsed['institutions']
-# data['institutions'] = parsed['institutions']['cmip6_acronyms']
-
-
 
 '''
 Get the Data
@@ -152,6 +122,43 @@ os.popen(f'git commit -m "New entry {data["acronym"]} to the Institutions LD fil
 
 
 
+
+
+
+
+
+
+
+
+
+    
+# def search_ror(query):
+
+#     import requests,json
+#     import urllib.parse
+
+#     # Strip out strange characters and insert in the desired format
+#     format_name = lambda n : urllib.parse.quote(n)
+#     # Make the API call
+#     url = 'https://api.ror.org/organizations?affiliation=%{}s'
+
+#     response = requests.get(url.format(query))
+
+#     # Check if the request was successful
+#     if response.status_code == 200:
+#         data = response.json()
+#         if data.get('items'):
+#             org = data['items'][0].get('organization')
+#             return data['items'][0]['score'],org['id'].split('/')[-1], org['name']
+#         else: return None,None,None
+#     else:
+#         print(f"Error: {response.status_code} - {response.text}")
+#         return None,None,None
+
+
+
+# data = parsed['institutions']
+# data['institutions'] = parsed['institutions']['cmip6_acronyms']
 
 
 

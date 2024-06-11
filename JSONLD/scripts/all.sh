@@ -17,7 +17,10 @@ do
   if [ -f "$FILE" ]; then
     # Run your command here, e.g., print the file name
     echo "Processing file: $FILE"
+    # skip files that start with x
+        if [[ "$filename" != x* ]]; then
     node $FILE
+    fi
     
     # Example command: Run a script or command with the file as an argument
     # ./your_command "$FILE"

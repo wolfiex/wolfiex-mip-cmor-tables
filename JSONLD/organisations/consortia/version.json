@@ -7,11 +7,11 @@
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-06T16:29:02+01:00",
+        "version:previous_updates": 2,
+        "version:date": "2024-06-07T15:50:29+01:00",
         "version:commit": {
-            "hash": "28293d3c63aea86769975566c110184e99941b33",
-            "message": "consortium redesign",
+            "hash": "f4d68e8553205d0da4b81f8e0246946221a26c89",
+            "message": "build script fix.",
             "author": {
                 "name": "Daniel",
                 "email": "daniel.ellis@ext.esa.int"

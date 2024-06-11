@@ -13,8 +13,10 @@ def validate_json(jsn):
         # if we do not give a file, read this
         jsn = rdjsn(jsn)
     name = os.path.basename(jsn['@id'])
+    
     schema_url = os.path.dirname(jsn['@id']).split(':')[-1]
     toplevel = os.popen('git rev-parse --show-toplevel').read().strip()
+    
     schema_loc = f"{toplevel}/JSONLD/{schema_url}/schema.json"
     # outfile guarantees that we must run this
     outfile = f"{toplevel}/JSONLD/{jsn['id'].split(':')[-1]}"

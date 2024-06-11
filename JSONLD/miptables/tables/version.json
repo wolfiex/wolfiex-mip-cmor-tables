@@ -1,5 +1,27 @@
 [
     {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/apday.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/apday.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/apday"
+        }
+    },
+    {
         "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/li3hrpt.json",
         "@type": "version",
         "version:file": "../../JSONLD/miptables/tables/li3hrpt.json",
@@ -19,116 +41,6 @@
         },
         "version:data": {
             "@id": "../../mip-cmor-tables:miptables/tables/li3hrpt"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/giafx.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/giafx.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/giafx"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/ae1hr.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/ae1hr.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/ae1hr"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/opdec.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/opdec.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/opdec"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/apfx.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/apfx.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/apfx"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/apmondiurnal.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/apmondiurnal.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/apmondiurnal"
         }
     },
     {
@@ -154,6 +66,50 @@
         }
     },
     {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/apfx.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/apfx.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/apfx"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/opdec.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/opdec.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/opdec"
+        }
+    },
+    {
         "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/gigyr.json",
         "@type": "version",
         "version:file": "../../JSONLD/miptables/tables/gigyr.json",
@@ -173,116 +129,6 @@
         },
         "version:data": {
             "@id": "../../mip-cmor-tables:miptables/tables/gigyr"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/aeday.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/aeday.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/aeday"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/obyrlev.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/obyrlev.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/obyrlev"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/opmonlev.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/opmonlev.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/opmonlev"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/aemonlev.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/aemonlev.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/aemonlev"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/apday.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/apday.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/apday"
         }
     },
     {
@@ -308,9 +154,9 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/ap1hr.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/aemonlev.json",
         "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/ap1hr.json",
+        "version:file": "../../JSONLD/miptables/tables/aemonlev.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -326,7 +172,117 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/ap1hr"
+            "@id": "../../mip-cmor-tables:miptables/tables/aemonlev"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/ae1hr.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/ae1hr.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/ae1hr"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/aeday.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/aeday.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/aeday"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/apmondiurnal.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/apmondiurnal.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/apmondiurnal"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/obyrlev.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/obyrlev.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/obyrlev"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/giafx.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/giafx.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/giafx"
         }
     },
     {
@@ -352,9 +308,9 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/simonpt.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/ap3hrpt.json",
         "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/simonpt.json",
+        "version:file": "../../JSONLD/miptables/tables/ap3hrpt.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -370,7 +326,7 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/simonpt"
+            "@id": "../../mip-cmor-tables:miptables/tables/ap3hrpt"
         }
     },
     {
@@ -396,9 +352,9 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/obday.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/opmonlev.json",
         "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/obday.json",
+        "version:file": "../../JSONLD/miptables/tables/opmonlev.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -414,13 +370,13 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/obday"
+            "@id": "../../mip-cmor-tables:miptables/tables/opmonlev"
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/opyrlev.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/ap1hr.json",
         "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/opyrlev.json",
+        "version:file": "../../JSONLD/miptables/tables/ap1hr.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -436,95 +392,7 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/opyrlev"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/giayr.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/giayr.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/giayr"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/ap3hrpt.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/ap3hrpt.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/ap3hrpt"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/ap6hrptz.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/ap6hrptz.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/ap6hrptz"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/gigfx.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/gigfx.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/gigfx"
+            "@id": "../../mip-cmor-tables:miptables/tables/ap1hr"
         }
     },
     {
@@ -550,9 +418,9 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/acmon.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/opyrlev.json",
         "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/acmon.json",
+        "version:file": "../../JSONLD/miptables/tables/opyrlev.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -568,29 +436,7 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/acmon"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/apmonclim.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/apmonclim.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/apmonclim"
+            "@id": "../../mip-cmor-tables:miptables/tables/opyrlev"
         }
     },
     {
@@ -616,6 +462,116 @@
         }
     },
     {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/simonpt.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/simonpt.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/simonpt"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/obday.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/obday.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/obday"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/giayr.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/giayr.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/giayr"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/apmonclim.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/apmonclim.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/apmonclim"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/gigfx.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/gigfx.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/gigfx"
+        }
+    },
+    {
         "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/lp3hrpt.json",
         "@type": "version",
         "version:file": "../../JSONLD/miptables/tables/lp3hrpt.json",
@@ -635,94 +591,6 @@
         },
         "version:data": {
             "@id": "../../mip-cmor-tables:miptables/tables/lp3hrpt"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/giamon.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/giamon.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/giamon"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/lpday.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/lpday.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/lpday"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/obmonlev.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/obmonlev.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/obmonlev"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/aemonz.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/aemonz.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/aemonz"
         }
     },
     {
@@ -748,9 +616,9 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/opfx.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/ap6hrptz.json",
         "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/opfx.json",
+        "version:file": "../../JSONLD/miptables/tables/ap6hrptz.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -766,51 +634,7 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/opfx"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/lp3hr.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/lp3hr.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/lp3hr"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/lp6hrpt.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/lp6hrpt.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/lp6hrpt"
+            "@id": "../../mip-cmor-tables:miptables/tables/ap6hrptz"
         }
     },
     {
@@ -836,9 +660,9 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/liday.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/lpday.json",
         "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/liday.json",
+        "version:file": "../../JSONLD/miptables/tables/lpday.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -854,13 +678,13 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/liday"
+            "@id": "../../mip-cmor-tables:miptables/tables/lpday"
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/simon.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/giamon.json",
         "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/simon.json",
+        "version:file": "../../JSONLD/miptables/tables/giamon.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -876,7 +700,51 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/simon"
+            "@id": "../../mip-cmor-tables:miptables/tables/giamon"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/acmon.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/acmon.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/acmon"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/opfx.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/opfx.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/opfx"
         }
     },
     {
@@ -902,28 +770,6 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/opdecz.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/opdecz.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/opdecz"
-        }
-    },
-    {
         "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/apsubhrptlev.json",
         "@type": "version",
         "version:file": "../../JSONLD/miptables/tables/apsubhrptlev.json",
@@ -946,9 +792,9 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/apsubhrpt.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/aemonz.json",
         "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/apsubhrpt.json",
+        "version:file": "../../JSONLD/miptables/tables/aemonz.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -964,7 +810,95 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/apsubhrpt"
+            "@id": "../../mip-cmor-tables:miptables/tables/aemonz"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/lp6hrpt.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/lp6hrpt.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/lp6hrpt"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/obmonlev.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/obmonlev.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/obmonlev"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/simon.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/simon.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/simon"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/lp3hr.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/lp3hr.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/lp3hr"
         }
     },
     {
@@ -990,6 +924,28 @@
         }
     },
     {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/liday.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/liday.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/liday"
+        }
+    },
+    {
         "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/ae6hrpt.json",
         "@type": "version",
         "version:file": "../../JSONLD/miptables/tables/ae6hrpt.json",
@@ -1009,6 +965,50 @@
         },
         "version:data": {
             "@id": "../../mip-cmor-tables:miptables/tables/ae6hrpt"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/apsubhrpt.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/apsubhrpt.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/apsubhrpt"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/opdecz.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/opdecz.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/opdecz"
         }
     },
     {
@@ -1056,9 +1056,9 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/obyr.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/lpmon.json",
         "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/obyr.json",
+        "version:file": "../../JSONLD/miptables/tables/lpmon.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -1074,7 +1074,7 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/obyr"
+            "@id": "../../mip-cmor-tables:miptables/tables/lpmon"
         }
     },
     {
@@ -1100,9 +1100,9 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/apmonz.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/obyr.json",
         "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/apmonz.json",
+        "version:file": "../../JSONLD/miptables/tables/obyr.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -1118,73 +1118,7 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/apmonz"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/lpmon.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/lpmon.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/lpmon"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/op3hrpt.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/op3hrpt.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/op3hrpt"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/siday.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/siday.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/siday"
+            "@id": "../../mip-cmor-tables:miptables/tables/obyr"
         }
     },
     {
@@ -1210,9 +1144,9 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/lpyrpt.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/apmonz.json",
         "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/lpyrpt.json",
+        "version:file": "../../JSONLD/miptables/tables/apmonz.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -1228,7 +1162,7 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/lpyrpt"
+            "@id": "../../mip-cmor-tables:miptables/tables/apmonz"
         }
     },
     {
@@ -1276,9 +1210,9 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/ae3hrptlev.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/op3hrpt.json",
         "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/ae3hrptlev.json",
+        "version:file": "../../JSONLD/miptables/tables/op3hrpt.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -1294,7 +1228,29 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/ae3hrptlev"
+            "@id": "../../mip-cmor-tables:miptables/tables/op3hrpt"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/lpyrpt.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/lpyrpt.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/lpyrpt"
         }
     },
     {
@@ -1320,6 +1276,50 @@
         }
     },
     {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/apmon.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/apmon.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/apmon"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/apmonlev.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/apmonlev.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/apmonlev"
+        }
+    },
+    {
         "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/li6hrpt.json",
         "@type": "version",
         "version:file": "../../JSONLD/miptables/tables/li6hrpt.json",
@@ -1342,9 +1342,9 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/apmon.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/ae3hrptlev.json",
         "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/apmon.json",
+        "version:file": "../../JSONLD/miptables/tables/ae3hrptlev.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -1360,7 +1360,51 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/apmon"
+            "@id": "../../mip-cmor-tables:miptables/tables/ae3hrptlev"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/aemon.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/aemon.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/aemon"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/siday.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/siday.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/siday"
         }
     },
     {
@@ -1408,9 +1452,9 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/apmonlev.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/opmonclim.json",
         "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/apmonlev.json",
+        "version:file": "../../JSONLD/miptables/tables/opmonclim.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -1426,13 +1470,13 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/apmonlev"
+            "@id": "../../mip-cmor-tables:miptables/tables/opmonclim"
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/aemon.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/ae6hr.json",
         "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/aemon.json",
+        "version:file": "../../JSONLD/miptables/tables/ae6hr.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -1448,7 +1492,7 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/aemon"
+            "@id": "../../mip-cmor-tables:miptables/tables/ae6hr"
         }
     },
     {
@@ -1474,9 +1518,9 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/lisubhrptsite.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/ae6hrptlev.json",
         "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/lisubhrptsite.json",
+        "version:file": "../../JSONLD/miptables/tables/ae6hrptlev.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -1492,29 +1536,7 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/lisubhrptsite"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/ae6hr.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/ae6hr.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/ae6hr"
+            "@id": "../../mip-cmor-tables:miptables/tables/ae6hrptlev"
         }
     },
     {
@@ -1562,72 +1584,6 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/opmonclim.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/opmonclim.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/opmonclim"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/ae6hrptlev.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/ae6hrptlev.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/ae6hrptlev"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/ap1hrpt.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/miptables/tables/ap1hrpt.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:miptables/tables/ap1hrpt"
-        }
-    },
-    {
         "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/opyr.json",
         "@type": "version",
         "version:file": "../../JSONLD/miptables/tables/opyr.json",
@@ -1647,6 +1603,28 @@
         },
         "version:data": {
             "@id": "../../mip-cmor-tables:miptables/tables/opyr"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/lisubhrptsite.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/lisubhrptsite.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/lisubhrptsite"
         }
     },
     {
@@ -1691,6 +1669,28 @@
         },
         "version:data": {
             "@id": "../../mip-cmor-tables:miptables/tables/aesubhrpt"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/miptables/tables/ap1hrpt.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/miptables/tables/ap1hrpt.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:commit": {
+            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:miptables/tables/ap1hrpt"
         }
     }
 ]
