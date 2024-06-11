@@ -95,9 +95,6 @@ outfile = f"{loc}{data['acronym'].lower()}.json"
 
 close,errors = checks.institution.validate(new_entry,outfile)
 
-critical, critical_message = checks.institution()
-
-
 
 for error in close:
     update_issue(issue_number,f'# Closing issue. \n {error} \n\n Please review request and resubmit.')
