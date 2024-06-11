@@ -1,0 +1,31 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/ iaa-csic",
+    "@type": "cmip:institution",
+    "institution:acronyms": [
+        "IAA",
+        "IAA-CSIC"
+    ],
+    "institution:aliases": [],
+    "institution:cmip_acronym": " IAA-CSIC",
+    "institution:established": 1975,
+    "institution:labels": [],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/04ka0vh05",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 37.18817,
+            "location:lon": 37.18817,
+            "location:city": "Granada",
+            "location:country": [
+                "Spain",
+                "ES"
+            ]
+        }
+    },
+    "institution:name": "Instituto de Astrof\u00edsica de Andaluc\u00eda",
+    "institution:ror": "04ka0vh05",
+    "institution:type": "Facility",
+    "institution:url": [
+        "https://www.iaa.csic.es"
+    ]
+}
