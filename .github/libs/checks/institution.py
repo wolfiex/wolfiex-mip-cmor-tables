@@ -16,4 +16,4 @@ def validate(jsn,iloc):
     if path not in iloc:
         errors.append(f"@id / location do not match:\n {path} || {jsn['@id']}")
     
-    return errors
+    return close,errors
