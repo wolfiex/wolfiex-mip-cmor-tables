@@ -1,2 +1,2 @@
 from . import schema
-from . import instution
+from . import institution
