@@ -1,0 +1,31 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/cmip-ipo",
+    "@type": "cmip:institution",
+    "institution:acronyms": [
+        "CMIP-IPO",
+        "WCRP-CMIP"
+    ],
+    "institution:aliases": [],
+    "institution:cmip_acronym": "CMIP-IPO",
+    "institution:established": 2021,
+    "institution:labels": [],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/000fg4e24",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 51.59947,
+            "location:lon": 51.59947,
+            "location:city": "Harwell",
+            "location:country": [
+                "United Kingdom",
+                "GB"
+            ]
+        }
+    },
+    "institution:name": "WCRP-CMIP International Project Office",
+    "institution:ror": "000fg4e24",
+    "institution:type": "Nonprofit",
+    "institution:url": [
+        "https://wcrp-cmip.org"
+    ]
+}
