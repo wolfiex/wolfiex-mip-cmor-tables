@@ -48,10 +48,11 @@ jobs:
           ISSUE_SUBMITTER: ${{ github.event.issue.user.login }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
         run: |
-          repo_owner=${{ github.event.repository.owner.login }}
-          repo_name=${{ github.event.repository.name }}
-          REPO="https://github.com/${repo_owner}/${repo_name}"
+          # repo_owner=${{ github.event.repository.owner.login }}
+          # repo_name=${{ github.event.repository.name }}
+          # REPO="https://github.com/${repo_owner}/${repo_name}"
           
           new_element
 
