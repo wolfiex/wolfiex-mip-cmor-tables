@@ -1,8 +1,8 @@
 ---
-name: Institution
-about: Addding a new, or updating an existing, institution
-title: 'Review request for change in institution'
-labels: 'institution'
+name: Consortium
+about: Addding a new, or updating an existing, consortium
+title: 'Review request for change in consortium'
+labels: 'consortium'
 assignees: ''
 
 ---
@@ -33,13 +33,16 @@ To use this, please fill out the template below, keeping the spacing and indenta
 ``` configfile
 
 
-[institution]
-    Acronym = "CMIP-IPO"
-    Full_Name = "Coupled Model Intercomparison Project: International Project Office"
-    ROR = "000fg4e24"
+[consortium]
+    Acronym = "CMIP"
+    Name = "Coupled Model Intercomparison Project"
     
-    # only change the item below to "update" if you are submitting a correction. 
-    action = "new"
+    [institutions]
+        cmip6_acronyms = [
+                "CMIP-IPO",
+                "WCRP"
+            ]
+    # nest instututions here, use the cmip acnronyms which they have been registered with.
 
 
 ```
